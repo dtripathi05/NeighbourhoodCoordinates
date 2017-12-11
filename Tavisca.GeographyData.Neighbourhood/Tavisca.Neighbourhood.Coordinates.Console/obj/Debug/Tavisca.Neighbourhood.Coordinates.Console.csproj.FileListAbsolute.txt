@@ -1,9 +1,0 @@
-D:\Deependra\Task\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Console\bin\Debug\Tavisca.Neighbourhood.Coordinates.Console.exe.config
-D:\Deependra\Task\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Console\bin\Debug\Tavisca.Neighbourhood.Coordinates.Console.exe
-D:\Deependra\Task\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Console\bin\Debug\Tavisca.Neighbourhood.Coordinates.Console.pdb
-D:\Deependra\Task\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Console\bin\Debug\Tavisca.Neighbourhood.Coordinates.Source.dll
-D:\Deependra\Task\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Console\bin\Debug\Tavisca.Neighbourhood.Coordinates.Source.pdb
-D:\Deependra\Task\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Console\obj\Debug\Tavisca.Neighbourhood.Coordinates.Console.csprojResolveAssemblyReference.cache
-D:\Deependra\Task\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Console\obj\Debug\Tavisca.Neighbourhood.Coordinates.Console.csproj.CoreCompileInputs.cache
-D:\Deependra\Task\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Console\obj\Debug\Tavisca.Neighbourhood.Coordinates.Console.exe
-D:\Deependra\Task\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Console\obj\Debug\Tavisca.Neighbourhood.Coordinates.Console.pdb
