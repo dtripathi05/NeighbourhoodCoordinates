@@ -1,0 +1,8 @@
+D:\Deependra\Task\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Source\bin\Debug\Tavisca.Neighbourhood.Coordinates.Source.dll
+D:\Deependra\Task\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Source\bin\Debug\Tavisca.Neighbourhood.Coordinates.Source.pdb
+D:\Deependra\Task\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Source\bin\Debug\ExcelDataReader.dll
+D:\Deependra\Task\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Source\bin\Debug\ExcelDataReader.xml
+D:\Deependra\Task\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Source\obj\Debug\Tavisca.Neighbourhood.Coordinates.Source.csprojResolveAssemblyReference.cache
+D:\Deependra\Task\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Source\obj\Debug\Tavisca.Neighbourhood.Coordinates.Source.csproj.CoreCompileInputs.cache
+D:\Deependra\Task\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Source\obj\Debug\Tavisca.Neighbourhood.Coordinates.Source.dll
+D:\Deependra\Task\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Source\obj\Debug\Tavisca.Neighbourhood.Coordinates.Source.pdb
