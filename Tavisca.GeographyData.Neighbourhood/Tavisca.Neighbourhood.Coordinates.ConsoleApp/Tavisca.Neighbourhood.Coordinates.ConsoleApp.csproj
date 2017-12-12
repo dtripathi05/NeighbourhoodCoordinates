@@ -46,9 +46,27 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Tavisca.Neighbourhood.Coordinates.Contracts\Tavisca.Neighbourhood.Coordinates.Contracts.csproj">
+      <Project>{00337d1d-3617-408f-b744-46c59c78ba01}</Project>
+      <Name>Tavisca.Neighbourhood.Coordinates.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tavisca.Neighbourhood.Coordinates.DB\Tavisca.Neighbourhood.Coordinates.DB.csproj">
+      <Project>{19805ba3-ed76-44ae-a1ff-e302fd51810e}</Project>
+      <Name>Tavisca.Neighbourhood.Coordinates.DB</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tavisca.Neighbourhood.Coordinates.Logger\Tavisca.Neighbourhood.Coordinates.Logger.csproj">
+      <Project>{1ee24d89-a1cf-43e6-b4e8-168b66286180}</Project>
+      <Name>Tavisca.Neighbourhood.Coordinates.Logger</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tavisca.Neighbourhood.Coordinates.Model\Tavisca.Neighbourhood.Coordinates.Model.csproj">
+      <Project>{fee1312b-b0f0-403a-86ec-d4e8a3153c68}</Project>
+      <Name>Tavisca.Neighbourhood.Coordinates.Model</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Tavisca.Neighbourhood.Coordinates.Source\Tavisca.Neighbourhood.Coordinates.Source.csproj">
       <Project>{00e84dde-058e-4517-a7c0-f9f22030db64}</Project>
       <Name>Tavisca.Neighbourhood.Coordinates.Source</Name>

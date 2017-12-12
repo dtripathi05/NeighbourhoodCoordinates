@@ -15,6 +15,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tavisca.Neighbourhood.Coord
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tavisca.Neighbourhood.Coordinates.ConsoleApp", "Tavisca.Neighbourhood.Coordinates.ConsoleApp\Tavisca.Neighbourhood.Coordinates.ConsoleApp.csproj", "{7F1AA332-CBC7-4D2F-AFC0-A4268CBC1374}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contracts", "Contracts", "{4CCEBF76-6BE8-46EA-BDC2-7A8B1A1BBEBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{A0F18283-9BB0-49B4-A0C2-0D1DB46B6AA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tavisca.Neighbourhood.Coordinates.Model", "Tavisca.Neighbourhood.Coordinates.Model\Tavisca.Neighbourhood.Coordinates.Model.csproj", "{FEE1312B-B0F0-403A-86EC-D4E8A3153C68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logger", "Logger", "{F754964B-5D85-4E00-98BF-C2FED3F08EEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tavisca.Neighbourhood.Coordinates.Logger", "Tavisca.Neighbourhood.Coordinates.Logger\Tavisca.Neighbourhood.Coordinates.Logger.csproj", "{1EE24D89-A1CF-43E6-B4E8-168B66286180}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tavisca.Neighbourhood.Coordinates.Contracts", "Tavisca.Neighbourhood.Coordinates.Contracts\Tavisca.Neighbourhood.Coordinates.Contracts.csproj", "{00337D1D-3617-408F-B744-46C59C78BA01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +45,18 @@ Global
 		{7F1AA332-CBC7-4D2F-AFC0-A4268CBC1374}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F1AA332-CBC7-4D2F-AFC0-A4268CBC1374}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F1AA332-CBC7-4D2F-AFC0-A4268CBC1374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEE1312B-B0F0-403A-86EC-D4E8A3153C68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEE1312B-B0F0-403A-86EC-D4E8A3153C68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEE1312B-B0F0-403A-86EC-D4E8A3153C68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEE1312B-B0F0-403A-86EC-D4E8A3153C68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EE24D89-A1CF-43E6-B4E8-168B66286180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EE24D89-A1CF-43E6-B4E8-168B66286180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EE24D89-A1CF-43E6-B4E8-168B66286180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EE24D89-A1CF-43E6-B4E8-168B66286180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00337D1D-3617-408F-B744-46C59C78BA01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00337D1D-3617-408F-B744-46C59C78BA01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00337D1D-3617-408F-B744-46C59C78BA01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00337D1D-3617-408F-B744-46C59C78BA01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +65,9 @@ Global
 		{19805BA3-ED76-44AE-A1FF-E302FD51810E} = {793D8BCE-8ED0-42B3-9D07-AE250F4D57D8}
 		{00E84DDE-058E-4517-A7C0-F9F22030DB64} = {DB221A70-1E4B-4AE6-BD47-C1CC5899D437}
 		{7F1AA332-CBC7-4D2F-AFC0-A4268CBC1374} = {067287DB-81BA-4187-A89D-FF3AA5EC8CBF}
+		{FEE1312B-B0F0-403A-86EC-D4E8A3153C68} = {A0F18283-9BB0-49B4-A0C2-0D1DB46B6AA8}
+		{1EE24D89-A1CF-43E6-B4E8-168B66286180} = {F754964B-5D85-4E00-98BF-C2FED3F08EEE}
+		{00337D1D-3617-408F-B744-46C59C78BA01} = {4CCEBF76-6BE8-46EA-BDC2-7A8B1A1BBEBA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D9252714-81F1-4991-80AA-32F80EDA250C}

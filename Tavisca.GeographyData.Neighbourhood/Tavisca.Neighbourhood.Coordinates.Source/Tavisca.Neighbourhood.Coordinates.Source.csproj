@@ -49,13 +49,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FileReader.cs" />
+    <Compile Include="ExcelFileReader.cs" />
     <Compile Include="GeoCode.cs" />
-    <Compile Include="Neighbourhood.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tavisca.Neighbourhood.Coordinates.Contracts\Tavisca.Neighbourhood.Coordinates.Contracts.csproj">
+      <Project>{00337d1d-3617-408f-b744-46c59c78ba01}</Project>
+      <Name>Tavisca.Neighbourhood.Coordinates.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tavisca.Neighbourhood.Coordinates.Logger\Tavisca.Neighbourhood.Coordinates.Logger.csproj">
+      <Project>{1ee24d89-a1cf-43e6-b4e8-168b66286180}</Project>
+      <Name>Tavisca.Neighbourhood.Coordinates.Logger</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tavisca.Neighbourhood.Coordinates.Model\Tavisca.Neighbourhood.Coordinates.Model.csproj">
+      <Project>{fee1312b-b0f0-403a-86ec-d4e8a3153c68}</Project>
+      <Name>Tavisca.Neighbourhood.Coordinates.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
