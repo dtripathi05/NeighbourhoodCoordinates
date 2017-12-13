@@ -12,23 +12,35 @@ namespace Tavisca.Neighbourhood.Coordinates.DB
     public class SqlDataBase : IDataBase
     {
         private SqlConnection _myConnection;
-        public void InsertionInTable(List<NeighbourhoodCoordinates> coordinates)
+        private string _sqlConnectionString;
+        private ILogger _logger;
+        public SqlDataBase(string sqlConnectionString,ILogger logger)
         {
-            using (_myConnection= new SqlConnection("user id=sa;" +
-                                         "password=test123!@#;server=localhost;" +
-                                         "Trusted_Connection=yes;" +
-                                         "database=GeographyDataNeighbourhoodCoordinates; " +
-                                         "connection timeout=60"))
+            this._sqlConnectionString = sqlConnectionString;
+            this._logger = logger;
+        }
+        public void InsertionInTable(List<NeighbourhoodCoordinates> geographicDataNeighbourhood)
+        {
+            try
             {
-                _myConnection.Open();
-                foreach(var neighbourhood in coordinates)
+                using (_myConnection = new SqlConnection(_sqlConnectionString))
                 {
-                    SqlCommand sqlCommand = new SqlCommand("Insert into NeighbourhoodCoordinates (RegionID, RegionName, Latitude, Longitude) values( '" + neighbourhood.RegionID.Trim() + "' , '"
-                                        + neighbourhood.RegionName.Trim() + "' , '" + neighbourhood.Latitude.Trim() + "' , '" + neighbourhood.Longitude.Trim() + "');");
+                    var count = 0;
+                    _myConnection.Open();
+                    foreach (var neighbourhood in geographicDataNeighbourhood)
+                    {
+                        SqlCommand sqlInsertCommand = new SqlCommand("Insert into Neighbourhood (RegionID, RegionName, Latitude, Longitude) values( '" + neighbourhood.RegionID.Trim() + "' , '"
+                                            + neighbourhood.RegionName.Trim() + "' , " + neighbourhood.Latitude + " , " + neighbourhood.Longitude + ");");
+                        sqlInsertCommand.Connection = _myConnection;
+                        sqlInsertCommand.ExecuteNonQuery();
+                        Console.WriteLine(count++);
+                    }
                 }
             }
-            
-
+            catch (Exception ex)
+            {
+                _logger.ExceptionLogging(ex);
+            }
         }
     }
 }

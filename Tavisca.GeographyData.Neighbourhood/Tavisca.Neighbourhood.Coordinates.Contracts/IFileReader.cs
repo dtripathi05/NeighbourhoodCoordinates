@@ -5,6 +5,6 @@ namespace Tavisca.Neighbourhood.Coordinates.Contracts
     public interface IFileReader
     {
         List<NeighbourhoodCoordinates> GetNeighbourhoodData();
-        List<NeighbourhoodCoordinates> ImportingNeighbourhoodDataFromFile();
+        void ImportingNeighbourhoodDataFromFile();
     }
 }
