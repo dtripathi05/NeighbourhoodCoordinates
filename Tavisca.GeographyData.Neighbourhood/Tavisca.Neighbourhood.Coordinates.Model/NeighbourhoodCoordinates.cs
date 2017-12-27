@@ -6,6 +6,7 @@
         private string _regionName;
         private decimal _latitude;
         private decimal _longitude;
+        private string _cityName;
 
         public string RegionID
         {
@@ -26,6 +27,10 @@
         {
             get { return this._longitude; }
             set { this._longitude = value; }
+        }
+        public string CityName {
+            get {return this._cityName; }
+            set {this._cityName = value; }
         }
     }
 }

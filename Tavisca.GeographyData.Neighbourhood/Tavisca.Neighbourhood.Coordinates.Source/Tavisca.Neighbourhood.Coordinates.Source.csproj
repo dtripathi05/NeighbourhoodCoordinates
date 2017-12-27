@@ -52,6 +52,9 @@
     <Compile Include="ExcelFileReader.cs" />
     <Compile Include="GeoCode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegionNameResolver.cs" />
+    <Compile Include="SplitGeographicData.cs" />
+    <Compile Include="TextFileReader.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

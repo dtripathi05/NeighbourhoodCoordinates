@@ -186,11 +186,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\Deependra\\Task\\Tavisca.GeographyData.Neighbourhood\\Tavisca.Neighbourhood.Coordinates.Model\\Tavisca.Neighbourhood.Coordinates.Model.csproj",
+      "projectUniqueName": "D:\\Deependra\\SVN_Demo_Source\\Trunk\\Tavisca.GeographyData.Neighbourhood\\Tavisca.Neighbourhood.Coordinates.Model\\Tavisca.Neighbourhood.Coordinates.Model.csproj",
       "projectName": "Tavisca.Neighbourhood.Coordinates.Model",
-      "projectPath": "D:\\Deependra\\Task\\Tavisca.GeographyData.Neighbourhood\\Tavisca.Neighbourhood.Coordinates.Model\\Tavisca.Neighbourhood.Coordinates.Model.csproj",
+      "projectPath": "D:\\Deependra\\SVN_Demo_Source\\Trunk\\Tavisca.GeographyData.Neighbourhood\\Tavisca.Neighbourhood.Coordinates.Model\\Tavisca.Neighbourhood.Coordinates.Model.csproj",
       "packagesPath": "C:\\Users\\dtripathi\\.nuget\\packages\\",
-      "outputPath": "D:\\Deependra\\Task\\Tavisca.GeographyData.Neighbourhood\\Tavisca.Neighbourhood.Coordinates.Model\\obj\\",
+      "outputPath": "D:\\Deependra\\SVN_Demo_Source\\Trunk\\Tavisca.GeographyData.Neighbourhood\\Tavisca.Neighbourhood.Coordinates.Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -204,7 +204,10 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "http://cltsenvironments.ag.local/NuGetServer/nuget": {},
+        "http://stage-packagegallery.tavisca.com/api": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://www.nuget.org/packages/Microsoft.AspNet.WebPages/2.0.30506": {}
       },
       "frameworks": {
         "netstandard2.0": {

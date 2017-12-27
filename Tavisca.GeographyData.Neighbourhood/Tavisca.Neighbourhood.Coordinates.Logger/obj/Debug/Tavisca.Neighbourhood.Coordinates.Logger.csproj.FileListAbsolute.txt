@@ -9,3 +9,14 @@ D:\Deependra\Task\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coor
 D:\Deependra\Task\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Logger\obj\Debug\Tavisca.Neighbourhood.Coordinates.Logger.csproj.CoreCompileInputs.cache
 D:\Deependra\Task\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Logger\obj\Debug\Tavisca.Neighbourhood.Coordinates.Logger.dll
 D:\Deependra\Task\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Logger\obj\Debug\Tavisca.Neighbourhood.Coordinates.Logger.pdb
+D:\Deependra\SVN_Demo_Source\Trunk\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Logger\bin\Debug\Tavisca.Neighbourhood.Coordinates.Logger.dll
+D:\Deependra\SVN_Demo_Source\Trunk\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Logger\bin\Debug\Tavisca.Neighbourhood.Coordinates.Logger.pdb
+D:\Deependra\SVN_Demo_Source\Trunk\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Logger\bin\Debug\Tavisca.Neighbourhood.Coordinates.Contracts.dll
+D:\Deependra\SVN_Demo_Source\Trunk\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Logger\bin\Debug\Tavisca.Neighbourhood.Coordinates.Model.dll
+D:\Deependra\SVN_Demo_Source\Trunk\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Logger\bin\Debug\netstandard.dll
+D:\Deependra\SVN_Demo_Source\Trunk\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Logger\bin\Debug\Tavisca.Neighbourhood.Coordinates.Contracts.pdb
+D:\Deependra\SVN_Demo_Source\Trunk\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Logger\bin\Debug\Tavisca.Neighbourhood.Coordinates.Model.pdb
+D:\Deependra\SVN_Demo_Source\Trunk\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Logger\obj\Debug\Tavisca.Neighbourhood.Coordinates.Logger.csprojResolveAssemblyReference.cache
+D:\Deependra\SVN_Demo_Source\Trunk\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Logger\obj\Debug\Tavisca.Neighbourhood.Coordinates.Logger.csproj.CoreCompileInputs.cache
+D:\Deependra\SVN_Demo_Source\Trunk\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Logger\obj\Debug\Tavisca.Neighbourhood.Coordinates.Logger.dll
+D:\Deependra\SVN_Demo_Source\Trunk\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Logger\obj\Debug\Tavisca.Neighbourhood.Coordinates.Logger.pdb

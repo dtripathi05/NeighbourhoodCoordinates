@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Tavisca.Neighbourhood.Coordinates.Contracts;
 using Tavisca.Neighbourhood.Coordinates.Model;
 
@@ -14,6 +12,7 @@ namespace Tavisca.Neighbourhood.Coordinates.DB
         private SqlConnection _myConnection;
         private string _sqlConnectionString;
         private ILogger _logger;
+        public int Count { get; private set; }
         public SqlDataBase(string sqlConnectionString,ILogger logger)
         {
             this._sqlConnectionString = sqlConnectionString;
@@ -25,15 +24,19 @@ namespace Tavisca.Neighbourhood.Coordinates.DB
             {
                 using (_myConnection = new SqlConnection(_sqlConnectionString))
                 {
-                    var count = 0;
+                    Count = 0;
                     _myConnection.Open();
                     foreach (var neighbourhood in geographicDataNeighbourhood)
                     {
-                        SqlCommand sqlInsertCommand = new SqlCommand("Insert into Neighbourhood (RegionID, RegionName, Latitude, Longitude) values( '" + neighbourhood.RegionID.Trim() + "' , '"
-                                            + neighbourhood.RegionName.Trim() + "' , " + neighbourhood.Latitude + " , " + neighbourhood.Longitude + ");");
-                        sqlInsertCommand.Connection = _myConnection;
-                        sqlInsertCommand.ExecuteNonQuery();
-                        Console.WriteLine(count++);
+                        SqlCommand command = new SqlCommand("spInsertNeighbour", _myConnection);
+                        command.CommandType = CommandType.StoredProcedure;
+                        command.Parameters.AddWithValue("@RegionID", neighbourhood.RegionID.Trim());
+                        command.Parameters.AddWithValue("@RegionName", neighbourhood.RegionName.Trim());
+                        command.Parameters.AddWithValue("@Latitude", neighbourhood.Latitude);
+                        command.Parameters.AddWithValue("@Longitude", neighbourhood.Longitude);
+                        command.Parameters.AddWithValue("@CityName", neighbourhood.CityName);
+                        command.ExecuteNonQuery();
+                        Console.WriteLine(Count++ +"/"+neighbourhood.RegionID);
                     }
                 }
             }

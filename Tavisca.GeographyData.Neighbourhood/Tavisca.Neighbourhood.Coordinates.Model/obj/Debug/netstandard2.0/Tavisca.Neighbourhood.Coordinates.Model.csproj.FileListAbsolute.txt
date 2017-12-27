@@ -7,3 +7,12 @@ D:\Deependra\Task\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coor
 D:\Deependra\Task\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Model\obj\Debug\netstandard2.0\Tavisca.Neighbourhood.Coordinates.Model.AssemblyInfo.cs
 D:\Deependra\Task\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Model\obj\Debug\netstandard2.0\Tavisca.Neighbourhood.Coordinates.Model.dll
 D:\Deependra\Task\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Model\obj\Debug\netstandard2.0\Tavisca.Neighbourhood.Coordinates.Model.pdb
+D:\Deependra\SVN_Demo_Source\Trunk\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Model\bin\Debug\netstandard2.0\Tavisca.Neighbourhood.Coordinates.Model.deps.json
+D:\Deependra\SVN_Demo_Source\Trunk\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Model\bin\Debug\netstandard2.0\Tavisca.Neighbourhood.Coordinates.Model.dll
+D:\Deependra\SVN_Demo_Source\Trunk\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Model\bin\Debug\netstandard2.0\Tavisca.Neighbourhood.Coordinates.Model.pdb
+D:\Deependra\SVN_Demo_Source\Trunk\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Model\obj\Debug\netstandard2.0\Tavisca.Neighbourhood.Coordinates.Model.csprojResolveAssemblyReference.cache
+D:\Deependra\SVN_Demo_Source\Trunk\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Model\obj\Debug\netstandard2.0\Tavisca.Neighbourhood.Coordinates.Model.csproj.CoreCompileInputs.cache
+D:\Deependra\SVN_Demo_Source\Trunk\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Model\obj\Debug\netstandard2.0\Tavisca.Neighbourhood.Coordinates.Model.AssemblyInfoInputs.cache
+D:\Deependra\SVN_Demo_Source\Trunk\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Model\obj\Debug\netstandard2.0\Tavisca.Neighbourhood.Coordinates.Model.AssemblyInfo.cs
+D:\Deependra\SVN_Demo_Source\Trunk\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Model\obj\Debug\netstandard2.0\Tavisca.Neighbourhood.Coordinates.Model.dll
+D:\Deependra\SVN_Demo_Source\Trunk\Tavisca.GeographyData.Neighbourhood\Tavisca.Neighbourhood.Coordinates.Model\obj\Debug\netstandard2.0\Tavisca.Neighbourhood.Coordinates.Model.pdb

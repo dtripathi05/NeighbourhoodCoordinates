@@ -19,13 +19,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contracts", "Contracts", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{A0F18283-9BB0-49B4-A0C2-0D1DB46B6AA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tavisca.Neighbourhood.Coordinates.Model", "Tavisca.Neighbourhood.Coordinates.Model\Tavisca.Neighbourhood.Coordinates.Model.csproj", "{FEE1312B-B0F0-403A-86EC-D4E8A3153C68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tavisca.Neighbourhood.Coordinates.Model", "Tavisca.Neighbourhood.Coordinates.Model\Tavisca.Neighbourhood.Coordinates.Model.csproj", "{FEE1312B-B0F0-403A-86EC-D4E8A3153C68}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logger", "Logger", "{F754964B-5D85-4E00-98BF-C2FED3F08EEE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tavisca.Neighbourhood.Coordinates.Logger", "Tavisca.Neighbourhood.Coordinates.Logger\Tavisca.Neighbourhood.Coordinates.Logger.csproj", "{1EE24D89-A1CF-43E6-B4E8-168B66286180}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tavisca.Neighbourhood.Coordinates.Contracts", "Tavisca.Neighbourhood.Coordinates.Contracts\Tavisca.Neighbourhood.Coordinates.Contracts.csproj", "{00337D1D-3617-408F-B744-46C59C78BA01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{02DAAA56-00D2-4E13-B022-64188F0FC7A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tavisca.Neighbourhood.Coordinates.Test", "Tavisca.Neighbourhood.Coordinates.Test\Tavisca.Neighbourhood.Coordinates.Test.csproj", "{CF1BC1AB-AE5F-4024-9BF1-A8DF2AADE5A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,10 @@ Global
 		{00337D1D-3617-408F-B744-46C59C78BA01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00337D1D-3617-408F-B744-46C59C78BA01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00337D1D-3617-408F-B744-46C59C78BA01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF1BC1AB-AE5F-4024-9BF1-A8DF2AADE5A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF1BC1AB-AE5F-4024-9BF1-A8DF2AADE5A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF1BC1AB-AE5F-4024-9BF1-A8DF2AADE5A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF1BC1AB-AE5F-4024-9BF1-A8DF2AADE5A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -68,6 +76,7 @@ Global
 		{FEE1312B-B0F0-403A-86EC-D4E8A3153C68} = {A0F18283-9BB0-49B4-A0C2-0D1DB46B6AA8}
 		{1EE24D89-A1CF-43E6-B4E8-168B66286180} = {F754964B-5D85-4E00-98BF-C2FED3F08EEE}
 		{00337D1D-3617-408F-B744-46C59C78BA01} = {4CCEBF76-6BE8-46EA-BDC2-7A8B1A1BBEBA}
+		{CF1BC1AB-AE5F-4024-9BF1-A8DF2AADE5A2} = {02DAAA56-00D2-4E13-B022-64188F0FC7A6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D9252714-81F1-4991-80AA-32F80EDA250C}

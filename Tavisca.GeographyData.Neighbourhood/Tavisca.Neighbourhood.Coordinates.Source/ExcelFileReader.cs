@@ -10,27 +10,25 @@ namespace Tavisca.Neighbourhood.Coordinates.Source
     public class ExcelFileReader:IFileReader
     {
         private string _filePath;
-        private string _coordinates;
         private Excel.Application _xlApp;
         private Excel.Range _xlRange;
-        private Excel.Workbook _xlWorkbook;
-        private Excel._Worksheet _xlWorksheet;
         private ILogger _logger;
         private List<NeighbourhoodCoordinates> _neighbourhoodGoegraphicData;
+
         public ExcelFileReader(string filePath,ILogger logger)
         {
             this._filePath = filePath;
             this._logger = logger;
             _neighbourhoodGoegraphicData = new List<NeighbourhoodCoordinates>();
+            _xlApp = new Excel.Application();
         }
         public List<NeighbourhoodCoordinates> GetNeighbourhoodData()
         {
             try
             {
-                _xlApp = new Excel.Application();
-                _xlWorkbook = _xlApp.Workbooks.Open(_filePath);
-                _xlWorksheet = _xlWorkbook.Sheets[1];
-                _xlRange = _xlWorksheet.UsedRange;
+                Excel.Workbook xlWorkbook = _xlApp.Workbooks.Open(_filePath);
+                Excel._Worksheet xlWorksheet = xlWorkbook.Sheets[1];
+                _xlRange = xlWorksheet.UsedRange;
                 ImportingNeighbourhoodDataFromFile();
             }
             catch (Exception ex)
@@ -50,20 +48,28 @@ namespace Tavisca.Neighbourhood.Coordinates.Source
 
         public void  ImportingNeighbourhoodDataFromFile()
         {
-            List<NeighbourhoodCoordinates> neighbourhoodsGeographicData = new List<NeighbourhoodCoordinates>();
-            for (int i = 2; i <= _xlRange.Rows.Count; i++)
+            try
             {
-                _coordinates = Convert.ToString((_xlRange.Cells[i, 3] as Excel.Range).Value2);
-                GeoCode.GetCoordinates(_coordinates);
-                neighbourhoodsGeographicData.Add(new NeighbourhoodCoordinates
+                string coordinates;
+                for (int i = 2; i <= _xlRange.Rows.Count; i++)
                 {
-                    RegionID = Convert.ToString((_xlRange.Cells[i, 1] as Excel.Range).Value2).Replace("'", "''"),
-                    RegionName = Convert.ToString((_xlRange.Cells[i, 2] as Excel.Range).Value2).Replace("'", "''"),
-                    Latitude = GeoCode.Latitude,
-                    Longitude = GeoCode.Longitude
-                });
+                    coordinates = Convert.ToString((_xlRange.Cells[i, 3] as Excel.Range).Value2);
+                    GeoCode.GetCoordinates(coordinates,_logger);
+                    RegionNameResolver.GetResolvedRegionName(Convert.ToString((_xlRange.Cells[i, 2] as Excel.Range).Value2), _logger);
+                    _neighbourhoodGoegraphicData.Add(new NeighbourhoodCoordinates
+                    {
+                        RegionID = Convert.ToString((_xlRange.Cells[i, 1] as Excel.Range).Value2),
+                        RegionName = RegionNameResolver.RegionName.Replace("'", "''"),
+                        CityName=RegionNameResolver.CityName.Replace("'", "''"),
+                        Latitude = GeoCode.Latitude,
+                        Longitude = GeoCode.Longitude
+                    });
+                }
             }
-            _neighbourhoodGoegraphicData = neighbourhoodsGeographicData;
+            catch (Exception ex)
+            {
+                _logger.ExceptionLogging(ex);
+            }        
         }
     }
 }
